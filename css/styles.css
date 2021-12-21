@@ -1,0 +1,444 @@
+/* ===============RESET styles 🧐 starts here========== */
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul, li {
+    list-style: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+/* ===============RESET styles 🧐 ends here========== */
+
+
+
+:root {
+    --main-color: #212121;
+    --sec-color: #757575;
+    --act-color: #2196F3;
+    --prim-white-background: #FFFFFF;
+    --sec-grey-background-color: #E5E5E5;
+    --thir-grey-white-background: #F5F4FA;
+
+}
+body{
+    background-color: var(--prim-white-background);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    color: #050303;
+}
+.section {
+    padding-top: 94px;
+}
+
+.container {
+    padding: 0 15px;
+    width: 1200px;
+    outline: 1px solid red;
+    margin: 0 auto;
+}
+
+.hedden-elem {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    opacity: 0;
+    margin-top: -1px;
+}
+
+/* ===============Header styles 🧐 starts here========== */
+
+nav,
+.links,
+.contacts,
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    border-bottom: 1px solid #ececec;
+}
+header .logo {
+    margin-right: 93px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: calc(31/26);
+    letter-spacing: 0.03em;
+    color: var(--act-color);
+}
+
+.logo-color-black {
+    color: var(--main-color);
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.logo-color-white {
+    color: #FFFFFF;
+}
+.contacts li a,
+.links li a {
+    margin-right: 50px;
+    display: inline-block;
+    padding: 30.5px 0;
+    color: var(--main-color);
+    font-weight: 500;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+}
+
+.links li:last-child a {
+    margin-right: 0px;
+    
+}
+
+.contacts li a {
+    margin: 0 0 0 50px;
+    color: var(--sec-color);
+}
+
+.contacts li a:hover,
+.contacts li a:focus,
+.links li a:focus,
+.links li a:hover {
+    color: var(--act-color);
+}
+
+.contacts li:first-child a {
+    margin-left: 0px;
+}
+/* ===============Header styles 🧐 ends here========== */
+
+/* ===============Hero styles 🧐 starts here========== */
+
+.hero {
+    background: #2f303a;
+    padding: 200px 0;
+    max-width: 1600px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 44px;
+    text-transform: uppercase;
+    max-width: 650px;
+    color:#FFFFFF;
+    line-height: calc(60/44);
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.hero-btn {
+    padding: 10px 32px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin: 0 auto;
+    max-width: 650px;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background:#188CE8 ;
+}
+
+
+/* ===============Hero styles 🧐 ends here========== */
+
+/* ===============Advantages styles 🧐 starts here========== */
+.list-advantages,
+.advantages,
+.advantages-text,
+h2 .container,
+.list-image-do,
+.list-image-team {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container >.hedden-elem {
+    margin: 94px 215px;
+}
+
+.advantages-text {
+    max-width: 270px;
+}
+
+.list-advantages {
+    display: inline-block;
+       
+      
+}
+
+.advantages{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+}
+
+.advantages-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em; 
+    color: var(--sec-color);
+}
+/* ===============Advantages styles 🧐 ends here========== */
+
+/* ===============DOING & team styles 🧐 starts here========== */
+
+.doing,
+.team {
+    margin: 0 auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+.doing,
+.team {
+     margin-bottom: 50px;
+}
+.card-point {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
+    0px 1px 1px rgba(0, 0, 0, 0.14), 
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.card-team {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: var(--prim-white-background);
+    border-radius: 0px 0px 4px 4px;
+   }
+
+h3.img-name {
+    /* padding-top: 30px; */
+    padding-bottom: 10px;
+}
+
+/* p.img-proff {
+     padding-bottom: 30px;
+} */
+
+img {
+    display: block;
+}
+
+.image-do li {
+    display: inline-block;
+}
+
+.img-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+
+}
+
+.img-proff {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--sec-color);
+
+}
+
+.bgteam {
+    padding-bottom: 94px;
+    background-color: var(--thir-grey-white-background);
+}
+/* ===============DOING & team styles 🧐 ends here========== */
+
+/* ===============Portfolio styles 🧐 starts here========== */
+.list-btn {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 50px;
+}
+.all-btn {
+    padding: 6px 22px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.web-btn,
+.apps-btn,
+.disg-btn,
+.markt-btn {
+    padding: 6px 22px;
+    margin-left: 8px;   
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    background: #F5F4FA;
+    border-radius: 4px;
+    }
+
+.product {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: var(--main-color);
+}  
+.type-product {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--sec-color);
+}
+
+.container-main-por {
+    padding: 0 15px;
+    width: 1210px;
+    outline: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    /* max-width: 1170px; */
+   
+}
+.card-portfolio {
+     border: 1px solid #EEEEEE;
+}
+h2.product {
+    margin-bottom: 4px;
+}
+.name-product {
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+}
+
+.one,
+.two,
+.four,
+.five,
+.seven,
+.eight {
+    margin-right: 30px;
+  
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+    margin-bottom: 30px;
+  
+}
+
+.portfolio {
+    padding-bottom: 94px;
+}
+/* ===============Portfolio styles 🧐 ends here========== */
+
+/* ===============Footer styles 🧐 starts here========== */
+.footer {
+    background: #2f303a;
+    padding: 60px 0;
+    max-width: 1600px;
+    margin: 0px auto;
+    /* margin-top: 94px; */
+}
+
+/* footer a.logo {
+    margin-bottom: 20px;
+} */
+.list-address {
+    padding-top: 20px;
+}
+.address {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+
+}
+.address-footer {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* ===============Footer styles 🧐 ends here========== */
+
+
