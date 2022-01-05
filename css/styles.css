@@ -135,12 +135,19 @@ header .logo {
 /* ===============Hero styles 🧐 starts here========== */
 
 .hero {
-    background: #2f303a;
     padding: 200px 0;
     max-width: 1600px;
     margin: 0px auto;
     text-align: center;
-}
+    background-image:  linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4)
+        ),
+        url("../images/imgbgfon.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background: #2f303a;
+   }
 
 .hero-title {
     font-size: 44px;
