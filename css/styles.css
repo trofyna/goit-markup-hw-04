@@ -130,6 +130,10 @@ header .logo {
 .contacts li:first-child a {
     margin-left: 0px;
 }
+.button-icon {
+    width: 16px;
+    height: 12px;
+}
 /* ===============Header styles 🧐 ends here========== */
 
 /* ===============Hero styles 🧐 starts here========== */
