@@ -127,9 +127,13 @@ header .logo {
     color: var(--act-color);
 }
 
-.contacts li:first-child a,
-.btn-icon-mobile-svg {
+.contacts li:first-child a {
     margin-left: 0px;
+}
+
+.btn-icon-mobile {
+    padding-left: 30px;
+    
 }
 .btn-icon-envelopehover,
 .btn-icon-mobile {
