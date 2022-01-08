@@ -133,6 +133,7 @@ header .logo {
 .button-icon {
     width: 16px;
     height: 12px;
+    fill: red;
 }
 /* ===============Header styles 🧐 ends here========== */
 
