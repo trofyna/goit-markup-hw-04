@@ -147,10 +147,12 @@ header .logo {
     background-color: none; */
 }
 
-.btn-icon-envelopehover:hover {
-    color: red;
+.btn-icon-envelopehover:hover,
+.btn-icon-mobile:hover {
+    color: #2196F3;
 }
-.btn-icon-envelopehover-svg {
+.btn-icon-envelopehover-svg,
+.btn-icon-mobile-svg {
     /* width: 16px;
     height: 12px; */
     fill: currentColor;
