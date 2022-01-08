@@ -130,9 +130,23 @@ header .logo {
 .contacts li:first-child a {
     margin-left: 0px;
 }
-.button-icon {
-    width: 16px;
-    height: 12px;
+.btn-icon-envelope {
+    padding: 0;
+    border: none;
+    /* width: 16px;
+    height: 12px; */
+    color: #2196F3;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.btn-icon-envelope:hover {
+    color: red;
+}
+.btn-icon-envelope-svg {
+    /* width: 16px;
+    height: 12px; */
+    fill: currentColor;
     }
 /* ===============Header styles 🧐 ends here========== */
 
