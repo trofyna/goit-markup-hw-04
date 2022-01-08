@@ -130,7 +130,7 @@ header .logo {
 .contacts li:first-child a {
     margin-left: 0px;
 }
-.btn-icon-envelope {
+.btn-icon-envelopehover {
     padding: 0;
     border: none;
     /* width: 16px;
@@ -140,10 +140,10 @@ header .logo {
     background-color: rgba(255, 255, 255, 0.6);
 }
 
-.btn-icon-envelope:hover {
+.btn-icon-envelopehover:hover {
     color: red;
 }
-.btn-icon-envelope-svg {
+.btn-icon-envelopehover-svg {
     /* width: 16px;
     height: 12px; */
     fill: currentColor;
