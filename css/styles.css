@@ -130,20 +130,21 @@ header .logo {
 .contacts li:first-child a {
     margin-left: 0px;
 }
-
+/* 
 .btn-icon-mobile {
     padding-left: 30px;
     
-}
+} */
+
 .btn-icon-envelopehover,
 .btn-icon-mobile {
     padding: 0;
     border: none;
     /* width: 16px;
     height: 12px; */
-    color: #2196F3;
+    /* color: #2196F3;
     border-radius: 50%;
-    background-color: none;
+    background-color: none; */
 }
 
 .btn-icon-envelopehover:hover {
