@@ -127,17 +127,19 @@ header .logo {
     color: var(--act-color);
 }
 
-.contacts li:first-child a {
+.contacts li:first-child a,
+.btn-icon-mobile-svg {
     margin-left: 0px;
 }
-.btn-icon-envelopehover {
+.btn-icon-envelopehover,
+.btn-icon-mobile {
     padding: 0;
     border: none;
     /* width: 16px;
     height: 12px; */
     color: #2196F3;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: none;
 }
 
 .btn-icon-envelopehover:hover {
