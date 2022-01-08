@@ -130,35 +130,44 @@ header .logo {
 .contacts li:first-child a {
     margin-left: 0px;
 }
-
+.icon-envelopehover-svg {
+    width: 16px;
+    height: 12px;
+}
+.icon-mobile-svg {
+    width: 10px;
+    height: 12px;
+}
+/* 
 .btn-icon-envelopehover,
 .btn-icon-mobile,
 .btn-icon-antenna {
     padding: 0;
     border: none;
-    /* width: 16px;
+    width: 16px;
     height: 12px;
     color: #2196F3;
-    border-radius: 50%; */
-   }
+    border-radius: 50%;
+   } */
 
-.btn-icon-mobile {
+/* .btn-icon-mobile {
     margin-left: 30px;
     margin-right: 0px;
     
-}
-.btn-icon-envelopehover:hover,
+} */
+/* .btn-icon-envelopehover:hover,
 .btn-icon-envelopehover:focus,
 .btn-icon-mobile:focus,
 .btn-icon-mobile:hover {
     color: #2196F3;
-    }
-.btn-icon-envelopehover-svg,
+    } */
+
+/* .btn-icon-envelopehover-svg,
 .btn-icon-mobile-svg {
-    /* width: 16px;
-    height: 12px; */
+    width: 16px;
+    height: 12px;
     fill: currentColor;
-    }
+    } */
 
 /* ===============Header styles 🧐 ends here========== */
 
@@ -210,27 +219,39 @@ header .logo {
 /* ===============Hero styles 🧐 ends here========== */
 
 /* ===============Advantages styles 🧐 starts here========== */
-.btn-icon-antenna {
+/* .btn-icon-antenna {
     margin-bottom: 30px;
-      }
-
+      } */
+/* 
 .btn-icon-antenna:hover,
 .btn-icon-antenna:focus {
     color: #2196F3;
     border-radius: 4px;
-    outline: 1px solid #2196F3;
-    }
-
+    outline: 1px solid #2196F3 ;
+    } */
+/* 
 .btn-icon-antenna {
         fill: currentColor;
-    }
-.antenna-use {
+    } */
+/* .antenna-use {
         margin: 0, auto;
         background-repeat: no-repeat;
         background-position: center;
         
+} */
+.icon-antenna {
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    /* border-radius: 4px; */
+    outline: 1px solid #2196F3;
 }
-
+.icon-antenna-svg {
+    width: 70px;
+    height: 70px;
+    padding: 0;
+    margin: 0px auto;
+}
 .list-advantages,
 .advantages,
 .advantages-text,
