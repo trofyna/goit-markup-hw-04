@@ -130,33 +130,36 @@ header .logo {
 .contacts li:first-child a {
     margin-left: 0px;
 }
-/* 
-.btn-icon-mobile {
-    padding-left: 30px;
-    
-} */
 
 .btn-icon-envelopehover,
-.btn-icon-mobile {
+.btn-icon-mobile,
+.btn-icon-antenna {
     padding: 0;
     border: none;
     /* width: 16px;
-    height: 12px; */
-    /* color: #2196F3;
-    border-radius: 50%;
-    background-color: none; */
-}
+    height: 12px;
+    color: #2196F3;
+    border-radius: 50%; */
+   }
 
+.btn-icon-mobile {
+    margin-left: 30px;
+    margin-right: 0px;
+    
+}
 .btn-icon-envelopehover:hover,
+.btn-icon-envelopehover:focus,
+.btn-icon-mobile:focus,
 .btn-icon-mobile:hover {
     color: #2196F3;
-}
+    }
 .btn-icon-envelopehover-svg,
 .btn-icon-mobile-svg {
     /* width: 16px;
     height: 12px; */
     fill: currentColor;
     }
+
 /* ===============Header styles 🧐 ends here========== */
 
 /* ===============Hero styles 🧐 starts here========== */
@@ -207,6 +210,27 @@ header .logo {
 /* ===============Hero styles 🧐 ends here========== */
 
 /* ===============Advantages styles 🧐 starts here========== */
+.btn-icon-antenna {
+    margin-bottom: 30px;
+      }
+
+.btn-icon-antenna:hover,
+.btn-icon-antenna:focus {
+    color: #2196F3;
+    border-radius: 4px;
+    outline: 1px solid #2196F3;
+    }
+
+.btn-icon-antenna {
+        fill: currentColor;
+    }
+.antenna-use {
+        margin: 0, auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+}
+
 .list-advantages,
 .advantages,
 .advantages-text,
