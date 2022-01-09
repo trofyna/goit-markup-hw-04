@@ -261,7 +261,8 @@ h2 .container,
 /* ===============DOING & team styles 🧐 starts here========== */
 
 .doing,
-.team {
+.team,
+.regular-clients {
     margin: 0 auto;
     font-family: Roboto;
     font-style: normal;
@@ -273,7 +274,8 @@ h2 .container,
     color: var(--main-color);
 }
 .doing,
-.team {
+.team,
+.regular-clients {
      margin-bottom: 50px;
 }
 .card-point {
@@ -337,7 +339,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .social-link {
@@ -525,7 +527,7 @@ h2.product {
     padding: 60px 0;
     max-width: 1600px;
     margin: 0px auto;
-    /* margin-top: 94px; */
+    margin-top: 94px;
 }
 
 /* footer a.logo {
