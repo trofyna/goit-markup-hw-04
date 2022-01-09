@@ -333,6 +333,30 @@ img {
     padding-bottom: 94px;
     background-color: var(--thir-grey-white-background);
 }
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.social-link {
+    margin-right: 30px;
+}
+
+.btn-soc {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    fill: #afb1b8;
+}
+.soc-icon-svg {
+    width: 20px;
+    height: 20px;
+}
 /* ===============DOING & team styles 🧐 ends here========== */
 
 /* ===============Portfolio styles 🧐 starts here========== */
