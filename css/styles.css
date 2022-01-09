@@ -341,7 +341,10 @@ img {
 }
 
 .social-link {
-    margin-right: 30px;
+    margin-right: 10px;
+}
+.social-link:last-child {
+    margin-right: 0px;
 }
 
 .btn-soc {
@@ -357,8 +360,58 @@ img {
     width: 20px;
     height: 20px;
 }
+
+.soc-icon:focus,
+.soc-icon:hover,
+.btn-soc:focus,
+.btn-soc:hover {
+  background: var(--act-color);
+  fill: #fff;
+}
+
 /* ===============DOING & team styles 🧐 ends here========== */
 
+/* ===============Regular clients styles 🧐 starts here========== */
+.clients {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .clients > .client {
+    margin-right: 30px;
+    text-align: center;
+  }
+  .clients .client:last-child {
+    margin: 0;
+  }
+  .client {
+    flex-basis: calc(100% / 6)-30px;
+    width: 170px;
+    height: 92px;
+  }
+  .btn-client {
+    width: 170px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border-radius: 4px;
+    border: 1px solid #afb1b8;
+    background: var(--for-black-color);
+    fill: #afb1b8;
+  }
+
+.btn-client:focus,
+.btn-client:hover {
+  fill: #2196f3;
+  border: 1px solid #2196f3;
+}
+
+/* ===============Regular clients styles 🧐 ends here========== */
 /* ===============Portfolio styles 🧐 starts here========== */
 .list-btn {
     display: flex;
