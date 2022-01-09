@@ -198,7 +198,8 @@ header .logo {
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
-    outline: 1px solid #2196F3;
+    /* outline: 1px solid #2196F3; */
+    background: #F5F4FA;
 }
 .icon-antenna-svg {
     width: 70px;
