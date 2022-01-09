@@ -191,7 +191,10 @@ header .logo {
 
 /* ===============Advantages styles 🧐 starts here========== */
 
-.icon-antenna {
+.icon-antenna,
+.icon-clock1,
+.icon-diagram1,
+.icon-astronaut1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,10 +204,14 @@ header .logo {
     /* outline: 1px solid #2196F3; */
     background: #F5F4FA;
 }
-.icon-antenna-svg {
+.icon-antenna-svg,
+.icon-clock1-svg,
+.icon-diagram1-svg,
+.icon-astronaut1-svg {
     width: 70px;
     height: 70px;
     }
+
 .list-advantages,
 .advantages,
 .advantages-text,
