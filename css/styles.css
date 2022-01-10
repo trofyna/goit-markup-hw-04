@@ -27,9 +27,13 @@ button {
 
 
 :root {
+    /* color for main-PRIMARY TEXT */
     --main-color: #212121;
+    /* color for SECONDARY TEXT */
     --sec-color: #757575;
+     /* color for SELECTION -ACCENT TEXT */
     --act-color: #2196F3;
+/* color for BLACK backgroud*/
     --prim-white-background: #FFFFFF;
     --sec-grey-background-color: #E5E5E5;
     --thir-grey-white-background: #F5F4FA;
@@ -236,7 +240,8 @@ h2 .container,
       
 }
 
-.advantages{
+.advantages,
+.join {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -356,20 +361,23 @@ img {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    fill: #afb1b8;
+
+    /* fill: #afb1b8; */
 }
 .soc-icon-svg {
-    width: 20px;
-    height: 20px;
+    width: 100px;
+    height: 100px;
+    /* background-size: cover; */
 }
 
-.soc-icon:focus,
-.soc-icon:hover,
-.btn-soc:focus,
-.btn-soc:hover {
+.soc-icon-svg:focus,
+.soc-icon-svg:hover
+/* .btn-soc:focus, */
+/* .btn-soc:hover  */
+{
   background: var(--act-color);
   fill: #fff;
-}
+  }
 
 /* ===============DOING & team styles 🧐 ends here========== */
 
@@ -403,16 +411,20 @@ img {
     padding: 0;
     border-radius: 4px;
     border: 1px solid #afb1b8;
-    background: var(--for-black-color);
+    background: var(--prim-white-background);
     fill: #afb1b8;
   }
 
 .btn-client:focus,
-.btn-client:hover {
+.btn-client:hover,
+.soc-icon-svg:focus,
+.soc-icon:hover {
   fill: #2196f3;
   border: 1px solid #2196f3;
 }
-
+.connect {
+    background: rgba(255, 255, 255, 0.1);
+  }
 /* ===============Regular clients styles 🧐 ends here========== */
 /* ===============Portfolio styles 🧐 starts here========== */
 .list-btn {
@@ -555,7 +567,23 @@ color: #FFFFFF;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+.join {
+    font-size: 14px;
+    line-height: 1.17;
+    margin-bottom: 20px;
+    color: var(--prim-white-background);
 
+.footer-social {
+    width: 206px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    text-transform: uppercase;
+    color: var(--prim-white-background);
+    ;
+    margin-left: 70px;
+  }
 /* ===============Footer styles 🧐 ends here========== */
 
 
