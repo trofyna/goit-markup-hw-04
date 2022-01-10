@@ -340,7 +340,7 @@ img {
     padding-bottom: 94px;
     background-color: var(--thir-grey-white-background);
 }
-.social {
+.social-list {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -364,11 +364,19 @@ img {
 
     /* fill: #afb1b8; */
 }
-.soc-icon-svg {
+.soc-icon-svg,
+.btn-icon-svg {
     width: 44px;
     height: 44px;
     /* background-size: cover; */
 }
+
+.btn-icon-svg {
+    width: 212px;
+    height: 120px;
+   
+}
+
 
 /* .soc-icon-svg:focus,
 .soc-icon-svg:hover */
@@ -573,11 +581,12 @@ color: #FFFFFF;
     margin-bottom: 20px;
     color: var(--prim-white-background);
 
-.footer-social {
-    width: 206px;
+.footer-join {
+    max-width: 206px;
     height: 80px;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: ; */
+    flex-wrap: wrap;
     margin-top: 15px;
     text-transform: uppercase;
     color: var(--prim-white-background);
