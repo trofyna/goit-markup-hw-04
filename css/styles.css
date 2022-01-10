@@ -365,15 +365,15 @@ img {
     /* fill: #afb1b8; */
 }
 .soc-icon-svg {
-    width: 100px;
-    height: 100px;
+    width: 44px;
+    height: 44px;
     /* background-size: cover; */
 }
 
-.soc-icon-svg:focus,
-.soc-icon-svg:hover
-/* .btn-soc:focus, */
-/* .btn-soc:hover  */
+/* .soc-icon-svg:focus,
+.soc-icon-svg:hover */
+.btn-soc:focus,
+.btn-soc:hover 
 {
   background: var(--act-color);
   fill: #fff;
