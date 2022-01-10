@@ -340,7 +340,7 @@ img {
     padding-bottom: 94px;
     background-color: var(--thir-grey-white-background);
 }
-.social-list {
+.social {
     display: flex;
     justify-content: center;
     align-items: center;
