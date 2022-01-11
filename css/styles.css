@@ -585,7 +585,7 @@ color: #FFFFFF;
     max-width: 206px;
     height: 80px;
     display: flex;
-    /* flex-direction: ; */
+    flex-direction: column;
     flex-wrap: wrap;
     margin-top: 15px;
     text-transform: uppercase;
