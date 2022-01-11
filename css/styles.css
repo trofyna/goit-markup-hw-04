@@ -582,5 +582,7 @@ color: #FFFFFF;
     margin-bottom: 20px;
     color: var(--prim-white-background);
 }
-        
+.join-column {
+    margin-left: 70px;
+}        
 /* ===============Footer styles 🧐 ends here========== */
