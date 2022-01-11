@@ -575,24 +575,14 @@ color: #FFFFFF;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
+
 .join {
     font-size: 14px;
     line-height: 1.17;
     margin-bottom: 20px;
     color: var(--prim-white-background);
 
-.footer-join {
-    max-width: 206px;
-    height: 80px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 15px;
-    text-transform: uppercase;
-    color: var(--prim-white-background);
-    ;
-    margin-left: 70px;
-  }
 /* ===============Footer styles 🧐 ends here========== */
 
 
