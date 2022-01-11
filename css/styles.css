@@ -576,13 +576,11 @@ color: #FFFFFF;
     color: rgba(255, 255, 255, 0.6);
 }
 
-
 .join {
     font-size: 14px;
     line-height: 1.17;
     margin-bottom: 20px;
     color: var(--prim-white-background);
-
+}
+        
 /* ===============Footer styles 🧐 ends here========== */
-
-
