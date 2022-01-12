@@ -550,9 +550,9 @@ h2.product {
     margin-top: 94px;
     }
 
-/* footer a.logo {
+footer a.logo {
     margin-bottom: 20px;
-} */
+}
 .logo-address-join-soc {
     display: flex;
     justify-content: flex-start;
@@ -561,7 +561,10 @@ h2.product {
 }
 
 .list-address {
-    padding-top: 20px;
+    max-width: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
 }
 .address {
 font-family: Roboto;
@@ -586,6 +589,7 @@ color: #FFFFFF;
 .join {
     font-size: 14px;
     line-height: 1.17;
+    margin-top: 10px;
     margin-bottom: 20px;
     color: var(--prim-white-background);
 }
