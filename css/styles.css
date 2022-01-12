@@ -423,13 +423,14 @@ img {
     fill: #afb1b8;
   }
 
-.btn-client:focus,
+/* .btn-client:focus,
 .btn-client:hover,
 .soc-icon-svg:focus,
 .soc-icon:hover {
   fill: #2196f3;
   border: 1px solid #2196f3;
-}
+} */
+
 .connect {
     background: rgba(255, 255, 255, 0.1);
   }
