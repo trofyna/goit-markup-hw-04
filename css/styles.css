@@ -583,8 +583,8 @@ color: #FFFFFF;
     color: var(--prim-white-background);
 }
 .join-column {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     margin-left: 516px;
 }        
 /* ===============Footer styles 🧐 ends here========== */
