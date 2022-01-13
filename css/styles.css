@@ -130,16 +130,18 @@ header .logo {
 .links li a:hover {
     color: var(--act-color);
 }
-.a-mail:hover.icon-envelopehover-svg,
-.a-mail:focus.icon-envelopehover-svg {
-    fill:  var(--act-color);
- } 
+/* .a-mail:hover .icon-envelopehover-svg {
+    fill: var(--act-color);} */
 
-
+/* 
 .a-mail:hover,
 .a-mail:focus {
   color: var(--act-color);
   fill: var(--act-color);
+} */
+.a-mail:hover,
+.a-mail:focus {
+    color: var(--act-color);
 }
 
 .contacts li:first-child a {
@@ -148,7 +150,7 @@ header .logo {
 .icon-envelopehover-svg {
     width: 16px;
     height: 12px;
-    fill: var(--act-color);
+    fill:currentColor;
 }
 .icon-mobile-svg {
     width: 10px;
