@@ -148,10 +148,7 @@ header .logo {
 .contacts li:first-child a {
     margin-left: 0px;
 }
-ul .contacts:hover,
-ul .contacts:focus {
-    color: var(--act-color);
-}
+
 .icon-envelopehover-svg {
     width: 16px;
     height: 12px;
