@@ -390,15 +390,17 @@ img {
     height: 120px;
    
 }
+.social li a:focus,
+.social li a:hover {
+    color: var(--act-color);
+}
 
-
-/* .soc-icon-svg:focus,
-.soc-icon-svg:hover */
-.btn-soc:focus,
-.btn-soc:hover 
-{
-  background: var(--act-color);
-  fill: #fff;
+.soc-icon-svg:focus,
+.soc-icon-svg:hover 
+/* .btn-soc:focus,
+.btn-soc:hover*/
+{ 
+    fill: currentColor;
   }
 
 /* ===============DOING & team styles 🧐 ends here========== */
