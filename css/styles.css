@@ -379,29 +379,29 @@ img {
     /* fill: #afb1b8; */
 }
 .soc-icon-svg,
-.btn-icon-svg {
+.client-icon-svg {
     width: 44px;
     height: 44px;
     /* background-size: cover; */
 }
 
-.btn-icon-svg {
+.client-icon-svg {
     width: 212px;
     height: 120px;
    
+}
+.social-link {
+    color: #FFFFFF;
 }
 .social li a:focus,
 .social li a:hover {
     color: var(--act-color);
 }
 
-.soc-icon-svg:focus,
-.soc-icon-svg:hover 
-/* .btn-soc:focus,
-.btn-soc:hover*/
-{ 
-    fill: currentColor;
-  }
+.soc-icon-svg { 
+    color:#757575;
+    fill: #afb1b8;
+  } 
 
 /* ===============DOING & team styles 🧐 ends here========== */
 
@@ -438,14 +438,14 @@ img {
     background: var(--prim-white-background);
     fill: #afb1b8;
   }
-
-/* .btn-client:focus,
-.btn-client:hover,
-.soc-icon-svg:focus,
-.soc-icon:hover {
+.btn-client:focus,
+.btn-client:hover
+/* .soc-icon-svg:focus,
+.soc-icon:hover  */ {
   fill: #2196f3;
   border: 1px solid #2196f3;
-} */
+}
+
 .connect {
     background: rgba(255, 255, 255, 0.1);
   }
