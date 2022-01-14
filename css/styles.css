@@ -290,6 +290,9 @@ h2 .container,
 /* ===============Advantages styles 🧐 ends here========== */
 
 /* ===============DOING & team styles 🧐 starts here========== */
+.do {
+    padding-bottom: 94px;
+}
 
 .doing,
 .team,
