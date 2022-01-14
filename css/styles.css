@@ -586,11 +586,17 @@ footer a.logo {
     /* flex-wrap:wrap; */
 }
 
+
 .list-address {
     max-width: 230px;
     display: flex;
     flex-wrap: wrap;
     padding-top: 40px;
+}
+.logo-address {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .address {
 font-family: Roboto;
