@@ -229,7 +229,7 @@ header .logo {
     height: 70px;
     }
 
-.list-advantages,
+/* .list-advantages, */
 .advantages,
 .advantages-text,
 h2 .container,
@@ -248,10 +248,22 @@ h2 .container,
 }
 
 .list-advantages {
+    display: flex;
     display: inline-block;
-       
-      
+    margin-left: 30px;      
 }
+
+.list-advantages:first-child {
+    margin-left: 0px;
+  }
+  
+.list-advantages:last-child {
+    margin-right: 0px;
+ }
+
+ .advant {
+     padding-right: 0px;
+ }
 
 .advantages,
 .join {
@@ -274,6 +286,7 @@ h2 .container,
     letter-spacing: 0.03em; 
     color: var(--sec-color);
 }
+
 /* ===============Advantages styles 🧐 ends here========== */
 
 /* ===============DOING & team styles 🧐 starts here========== */
