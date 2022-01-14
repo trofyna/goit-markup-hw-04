@@ -130,20 +130,16 @@ header .logo {
 .links li a:hover {
     color: var(--act-color);
 }
-.a-mail:hover .icon-envelopehover-svg {
+/* .a-mail:hover .icon-envelopehover-svg {
     fill: var(--act-color);} 
+ */
 
 
-.a-mail:hover,
-.a-mail:focus {
-  color: var(--act-color);
-  fill: var(--act-color);
-} */
 
 .a-mail:hover,
 .a-mail:focus {
     color: var(--act-color);
-} */
+} 
 
 .contacts li:first-child a {
     margin-left: 0px;
