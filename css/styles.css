@@ -124,8 +124,8 @@ header .logo {
     color: var(--sec-color);
 }
 
-/* .contacts li a:hover,
-.contacts li a:focus, */
+.contacts li a:hover,
+.contacts li a:focus,
 .links li a:focus,
 .links li a:hover {
     color: var(--act-color);
@@ -135,11 +135,11 @@ header .logo {
  */
 
 
-
+/* 
 .a-mail:hover,
 .a-mail:focus {
     color: var(--act-color);
-} 
+}  */
 
 .contacts li:first-child a {
     margin-left: 0px;
