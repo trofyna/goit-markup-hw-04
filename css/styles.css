@@ -408,18 +408,24 @@ img {
     height: 120px;
    
 }
+/* 
 .social-link {
     color: #FFFFFF;
-}
-.social li a:focus,
-.social li a:hover {
-    color: var(--act-color);
+} */
+.btn-soc:focus,
+.btn-soc:hover,
+.soc-icon-svg:hover,
+.soc-icon-svg:focus
+{
+    background: var(--act-color);
+    fill: #FFFFFF;
 }
 
+/* 
 .soc-icon-svg { 
     color:#757575;
     fill: #afb1b8;
-  } 
+  }  */
 
 /* ===============DOING & team styles 🧐 ends here========== */
 
