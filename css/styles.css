@@ -395,11 +395,16 @@ img {
     border-radius: 50%;
     fill: #afb1b8;
 }
-.soc-icon-svg,
-.client-icon-svg {
+.soc-icon-svg
+ {
     width: 20px;
     height: 20px;
     }
+
+.client-icon-svg {
+        width: 106px;
+        height: 60px;
+     }
 
 .btn-soc:focus,
 .btn-soc:hover,
