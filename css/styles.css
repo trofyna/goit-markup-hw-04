@@ -414,7 +414,9 @@ img {
     background: var(--act-color);
     fill: #FFFFFF;
 }
-
+.connect {
+    fill: #FFFFFF;
+}
 /* ===============DOING & team styles 🧐 ends here========== */
 
 /* ===============Regular clients styles 🧐 starts here========== */
