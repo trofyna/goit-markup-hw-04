@@ -399,18 +399,8 @@ img {
 .client-icon-svg {
     width: 20px;
     height: 20px;
-    /* background-size: cover; */
-}
+    }
 
-/* .client-icon-svg {
-    width: 212px;
-    height: 120px;
-   
-} */
-/* 
-.social-link {
-    color: #FFFFFF;
-} */
 .btn-soc:focus,
 .btn-soc:hover,
 .soc-icon-svg:hover,
@@ -419,12 +409,6 @@ img {
     background: var(--act-color);
     fill: #FFFFFF;
 }
-
-/* 
-.soc-icon-svg { 
-    color:#757575;
-    fill: #afb1b8;
-  }  */
 
 /* ===============DOING & team styles 🧐 ends here========== */
 
