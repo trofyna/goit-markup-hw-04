@@ -393,8 +393,7 @@ img {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-
-    /* fill: #afb1b8; */
+    fill: #afb1b8;
 }
 .soc-icon-svg,
 .client-icon-svg {
