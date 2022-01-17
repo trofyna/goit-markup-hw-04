@@ -589,10 +589,10 @@ h2.product {
     margin: 0px auto;
     margin-top: 94px;
     }
-
+/* 
 footer a.logo {
     margin-bottom: 20px;
-}
+} */
 .logo-address-join-soc {
     display: flex;
     justify-content: flex-start;
@@ -605,7 +605,7 @@ footer a.logo {
     max-width: 230px;
     display: flex;
     flex-wrap: wrap;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 /* .logo-address {
     display: flex;
